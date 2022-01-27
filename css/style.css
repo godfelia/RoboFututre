@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6em;
+  font-size: 16px;
+}
+.container {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+
+  background-color: black;
+}
+h1 {
+  margin-right: 100px;
+  font-size: 96px;
+  color: white;
+  line-height: 1em;
+}
+h2 {
+  font-size: 36px;
+  line-height: 1;
+  font-style: normal;
+}
+h3 {
+  font-size: 20px;
+}
+.news {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+}
+.newstext {
+  margin: 100px;
+}
+.futurework {
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #1f1f1f;
+}
+.future {
+  font-style: italic;
+  margin-left: 100px;
+  color: white;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+.left-boxes {
+  display: flex;
+  flex-direction: column;
+}
+.top-box {
+  line-height: normal;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  height: 200px;
+  width: 400px;
+  background-color: #db545a;
+}
+
+.machines {
+  height: 270px;
+  width: 400px;
+  margin-top: 10px;
+}
+.man {
+  width: auto;
+  height: 480px;
+  margin: 0 10px;
+}
+.right-boxes {
+  display: flex;
+  flex-direction: row;
+}
+.right-right-box {
+  display: flex;
+
+  align-items: center;
+  line-height: inherit;
+  color: white;
+  width: 400px;
+  height: 480px;
+  background-color: cadetblue;
+}
+.righttext {
+  margin: 25px;
+  text-align: center;
+}
+.block {
+  background-color: white;
+  height: 800px;
+}
+.space_for_button {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  font-size: 18px;
+  height: 50px;
+  letter-spacing: 0.5px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 auto;
+  background-color: cadetblue;
+  
+}
+.btn:hover {
+  background-color: rgb(60, 117, 119);
+}
+.tech-trend {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.techfont {
+  color: #db545a;
+}
+.tech-gallery {
+  margin: 50px;
+}
+.gallery-item {
+  margin: 20px;
+}
+.author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 500px;
+}
+.autor-txt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.vl {
+  background-color: #db545a;
+  width: 10px;
+  height: 200px;
+  margin-right: 50px;
+}
+
+.author-name {
+  font-size: 28px;
+  margin-right: 100px;
+}
+.artifical-robot {
+  padding: 5%;
+  display: flex;
+  background-color: cadetblue;
+  align-items: center;
+  flex-direction: row;
+}
+.artifical-robot-img {
+  height: 50em;
+}
+
+.arifical-txt {
+  height: 50em;
+  padding-left: 5%;
+  background-color: rgb(119, 170, 172);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
